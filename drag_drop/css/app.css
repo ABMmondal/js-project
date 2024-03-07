@@ -1,0 +1,31 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+}
+.imgbox{
+    background-image: url(../image/abir.jpeg);
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+    width: 317px;
+    height: 401px;
+    background-size: 311px;
+    cursor: pointer;
+}
+.whitebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    margin: 20px;
+    height: 420px;
+    width:350px;
+}
+.hold{
+    border: solid red 4px;
+}
+.hide{
+    display: none;
+}
+.dashed{
+    background-color: aquamarine;
+}
